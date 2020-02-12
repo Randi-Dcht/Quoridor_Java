@@ -1,6 +1,7 @@
 package be.dchtRnd.Informatique.Quoridor.Logic;
 
-public interface Player
+public enum Type
 {
-    Type getType();
+    Human,
+    Computer;
 }
